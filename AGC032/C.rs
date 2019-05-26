@@ -91,6 +91,7 @@ fn main() {
     }
     if f6 {
         println!("Yes");
+        return;
     }
     if d4.len() > 2 {
         println!("Yes");
